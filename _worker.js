@@ -6,7 +6,7 @@ let 屏蔽爬虫UA = ['netcraft'];
 const PREFIX = '/' // 路由前缀
 // 分支文件使用jsDelivr镜像的开关，0为关闭，默认关闭
 const Config = {
-	jsdelivr: 1 // 配置是否使用jsDelivr镜像
+	jsdelivr: 0 // 配置是否使用jsDelivr镜像
 }
 
 const whiteList = [] // 白名单，路径中包含白名单字符的请求才会通过，例如 ['/username/']
